@@ -1,1 +1,9 @@
-document.getElementById("count-el").innerText = 5
+let countValue = document.getElementById("count-el");
+
+let count = 0
+
+
+function increment() {
+    count = count + 1;
+    countValue.innerText = count;
+}
