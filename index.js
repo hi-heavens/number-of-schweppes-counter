@@ -5,10 +5,10 @@ let saveEl = document.getElementById("save-el");
 
 function increment() {
     count = count + 1;
-    countValue.innerText = count;
+    countValue.textContent = count;
 }
 
 function save() {
-    let combine = " " + count + " - ";
-    saveEl.innerText += combine;
+    let combine = count + " - ";
+    saveEl.textContent += combine;
 }
