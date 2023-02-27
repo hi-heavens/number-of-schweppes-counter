@@ -6,6 +6,11 @@ body {
     text-align: center;
 }
 
+.main-div {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -29,10 +34,10 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: darkgreen;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: darkred;
 }
 
